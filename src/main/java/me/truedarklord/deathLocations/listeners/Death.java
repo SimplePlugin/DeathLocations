@@ -22,7 +22,7 @@ public class Death implements Listener {
 
     @EventHandler
     public void onDeath(PlayerDeathEvent event) {
-        Player player = event.getPlayer();
+        Player player = event.getEntity();
         Location loc = event.getEntity().getLocation();
 
         sendDeathLocation(player, loc);
