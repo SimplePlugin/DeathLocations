@@ -1,0 +1,2 @@
+# DeathLocations
+Information on death.
