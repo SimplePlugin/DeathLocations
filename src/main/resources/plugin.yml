@@ -10,3 +10,5 @@ commands:
     description: Reloads the plugin.
     permission: deathchests.reload
     usage: /reload
+
+folia-supported: true
