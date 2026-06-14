@@ -33,6 +33,7 @@ tasks {
 shadowJar {
     relocate 'org.bstats', 'me.truedarklord.deathLocations.shaded.bstats'
     archiveClassifier.set('') // Removes "-shadow" from the output JAR name
+    minimize()
 }
 
 tasks.build {
